@@ -5,12 +5,14 @@
            var $experience;   // How long has been programming
            var $lang;         // Favorite Language
            var $education;    // Highest degree earned
+           var $age; //age of programmer
            // Class Constructor - function same name as the class
            function Programmer($name, $experience, $lang, $education) {
                 $this->name=$name;
                 $this->experience=$experience;
                 $this->lang=$lang;
                 $this->education=$education;
+                $this->age=$age;
            }
            // Getter/Setter functions for all properties in the class
            function get_name() {
@@ -37,6 +39,11 @@
            function set_education($neweducation) {
                 $this->education = $neweducation;
            }
+           function get_age() {
+                return $this->age;
+           }
+           function set_age($newage) {
+                $this->age = $newage;
            // Utility data dump function
            function output() {
                 echo "Programmer Name: ".$this->name."<br>";
