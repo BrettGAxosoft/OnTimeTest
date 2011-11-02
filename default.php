@@ -50,6 +50,7 @@
                 echo $this->name." has ".$this->experience." years of programming experience.<br>";
                 echo $this->lang." is ".$this->name."'s favorite programming language.<br>";
                 echo $this->name." holds the degree: ".$this->education."<br><br>";
+                echo $this->name." is ".$this->age." years old.";
            }
       }
       // Instantiating a programmer
