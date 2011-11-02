@@ -5,7 +5,7 @@
            var $experience;   // How long has been programming
            var $lang;         // Favorite Language
            var $education;    // Highest degree earned
-          var $age; //age of programmer
+          var int $age; //age of programmer
            // Class Constructor - function same name as the class
            function Programmer($name, $experience, $lang, $education) {
                 $this->name=$name;
