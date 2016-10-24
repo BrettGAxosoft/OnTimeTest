@@ -1,7 +1,7 @@
 <?php
       class Programmer {
            // Class Properties
-           var $name;         // Programmer's name
+           var $name;         // Programmer's name test
            var $experience;   // How long has been programming
            var $lang;         // Favorite Language
            var $education;    // Highest degree earned
